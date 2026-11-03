@@ -1,0 +1,14 @@
+services:
+  veltrix-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: veltrix-peopleops
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - "C:/Users/LENOVO/Downloads/veltrix_assessment/veltrix_assessment:/root/Downloads/veltrix_assessment/veltrix_assessment"
+      - "./index:/app/index"
+    restart: unless-stopped

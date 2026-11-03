@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated indexes
+index/*.json
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

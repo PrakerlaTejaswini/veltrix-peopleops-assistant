@@ -1,0 +1,14 @@
+
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+google-genai
+scikit-learn
+numpy
+pypdf
+python-docx
+beautifulsoup4
+httpx
+pytest
+groq
